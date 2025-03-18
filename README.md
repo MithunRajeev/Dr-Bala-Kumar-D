@@ -1,9 +1,11 @@
 # IDEAL SAMPLING
+## MITHUNRAJEEV V
+## 212223060159
 ## AIM
 To study and analyze Ideal Sampling (Impulse Sampling), where a continuous-time signal is sampled using an impulse train, and observe its effects in both time and frequency domains. The experiment aims to verify the sampling theorem, analyze spectral characteristics, and understand signal reconstruction.
 
 ## TOOLS REQUIRED
-Personal computer installed with SCILAB
+Personal computer installed with Colab.
 
 ## PROGRAM
 ```clf; // Clear the current figure
@@ -45,7 +47,6 @@ plt.legend()
 plt.show()
 ```
 ## OUTPUT WAVEFORM
-![image](https://github.com/user-attachments/assets/31ae932a-eb28-418e-aa89-14119e8b2837)
 ![image](https://github.com/user-attachments/assets/2b1eaba8-9279-4b5c-b0d2-f8cd447f839c)
 ![image](https://github.com/user-attachments/assets/93d0e54b-9027-459c-9e9d-603f1e82f6cb)
 
