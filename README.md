@@ -5,10 +5,10 @@
 To study and analyze Ideal Sampling (Impulse Sampling), where a continuous-time signal is sampled using an impulse train, and observe its effects in both time and frequency domains. The experiment aims to verify the sampling theorem, analyze spectral characteristics, and understand signal reconstruction.
 
 ## TOOLS REQUIRED
-Personal computer installed with Colab.
+Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 
 ## PROGRAM
-```clf; // Clear the current figure
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import resample
@@ -47,13 +47,9 @@ plt.legend()
 plt.show()
 ```
 ## OUTPUT WAVEFORM
-![image](https://github.com/user-attachments/assets/2b1eaba8-9279-4b5c-b0d2-f8cd447f839c)
-![image](https://github.com/user-attachments/assets/93d0e54b-9027-459c-9e9d-603f1e82f6cb)
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/c9cfb257-128f-41a0-97a0-37dfe7fc01d2)
+![image](https://github.com/user-attachments/assets/61803944-aea7-4ace-a144-10ef81ee5c56)
+![image](https://github.com/user-attachments/assets/0c0b62bc-7218-4b75-be68-ea6fabe716d1)
 
 ## RESULT
 The result of ideal sampling is a discrete-time signal that retains all the information of the original continuous-time signal is obtained and output is verified.
